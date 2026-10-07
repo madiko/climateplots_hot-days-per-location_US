@@ -8,8 +8,8 @@ from scipy.optimize import curve_fit
 from matplotlib.ticker import MaxNLocator
 from matplotlib.patches import FancyArrowPatch
 
-input_json_file = "merged_BerlinDahlem.json"  # JSON-Datei mit den Wetterdaten (Pfad: relativ zum Skript)
-locationName = "Berlin"  # Name des Ortes, der in den Diagrammen angezeigt wird
+input_json_file = "merged.json"  # JSON-Datei mit den Wetterdaten (Pfad: relativ zum Skript)
+locationName = "Name der Stadt"  # Name des Ortes, der in den Diagrammen angezeigt wird
 outputFunction = False  # True -> Namen der Fitfunktion wird ausgegeben
 outputParams = False    # True -> Fit-Parameter werden ausgegeben
 outputQuality = False   # True -> R²-Werte werden ausgegeben
