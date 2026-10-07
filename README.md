@@ -40,14 +40,14 @@ Wenn stattdessen Daten verwendet werden sollen, die für einen beliebigen geogra
 
 ### Gewünschte Einstellungen für Ergebnis-Plot
 
-Einstellungen in days_over.py anpassen  
+Einstellungen in `days_over.py` anpassen  
 
 
 #### Scripte ausführen
 
 1. getData.py  
 2. mergeData.py  
-3. days_over.py ausführen
+3. days_over.py 
 
 
 ## Lizenz
