@@ -11,7 +11,7 @@ Vorschau auf ein mögliches Ergebnis:
 
 ## Wie nutzen?
 
-### Acount via MeteoStat anlegen
+### [ 0 ] Acount via MeteoStat anlegen
 
 Vorbereiten: 
 
@@ -19,31 +19,34 @@ Vorbereiten:
 - API-Key erzeugen: https://dev.meteostat.net/api
 - RapidAPIKey in `getData.py` anpassen
 
-### Daten holen
+---
+
+### [ 1 ] Daten holen
 
 #### Daten einer konkreten, offiziellen Wetter-Station
 
-Wenn Daten einer konkreten offiziellen Wetterstation verwendet werden sollen:
+Wenn Daten einer konkreten offiziellen Wetter-Station verwendet werden sollen:
 
-- Stationsnummer auf https://meteostat.net/de/ herausfinden und
-- in `getData.py` eintragen:
-   - URL: `https://meteostat.p.rapidapi.com/stations/daily`  
-   - Query-String: Stationsnummer  
+Nummer der Station auf [meteostat.net/de](https://meteostat.net/de/) herausfinden und
+in `getData.py` eintragen:
+- URL: `https://meteostat.p.rapidapi.com/stations/daily`  
+- Query-String: Stationsnummer  
 
 #### Daten eines beliebigen geografischen Orts und umliegende Wetter-Stationen interpolieren
 
-Wenn stattdessen Daten verwendet werden sollen, die für einen beliebigen geografischen Ort aus den umliegenden Wetterstationen interpoliert werden:
+Wenn stattdessen Daten verwendet werden sollen, die für einen beliebigen geografischen Ort aus den umliegenden Wetter-Stationen interpoliert werden, folgendes in `getData.py` eintragen:
+- URL: `https://meteostat.p.rapidapi.com/point/daily`
+- Query-String: Geolocation des Orts
 
-- in `getData.py` eintragen:
-   - URL: `https://meteostat.p.rapidapi.com/point/daily`
-   - Query-String: Geolocation des Orts
+---
 
-### Gewünschte Einstellungen für Ergebnis-Plot
+### [ 2 ] Gewünschte Einstellungen für Ergebnis-Plot
 
 Einstellungen in `days_over.py` anpassen  
 
+---
 
-#### Scripte ausführen
+### [ 3 ] Scripte ausführen
 
 1. getData.py  
 2. mergeData.py  
