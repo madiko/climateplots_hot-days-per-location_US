@@ -5,7 +5,7 @@ Quelle Daten: [MeteoStat](https://meteostat.net/de).
 
 Vorschau auf ein mögliches Ergebnis:
 
-![Wetter Trend spezial mit allen Schwell-Werten ab 30°C](media/wetter_trend_special_alle_schwellenwerte.png)
+<img width="1000px" height="1000px" alt="Grafik mit exponentiell Wachsenden Kurven der Tage pro Jahr mit Temperaturen über 30, 31, 32, 33, 34 und 35°C. Start 1900 bis 2025." src="/media/wetter_trend_special_alle_schwellwerte.png" />
 
 
 
