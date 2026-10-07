@@ -5,7 +5,8 @@ Quelle Daten: [MeteoStat](https://meteostat.net/de).
 
 Vorschau auf ein mögliches Ergebnis:
 
-<img width="1000" height="1000" alt="Wetter Trend spezial mit allen Schwell-Werten ab 30°C" src="media/wetter_trend_special_alle_schwellenwerte.png" />
+![Wetter Trend spezial mit allen Schwell-Werten ab 30°C](media/wetter_trend_special_alle_schwellenwerte.png)
+
 
 
 ## Wie nutzen?
