@@ -1,3 +1,15 @@
+# ClimatePlots DaysOver: Heiße Tage pro gewähltem Standort
+
+ClimatePlots DaysOver generiert "Heiße Tage" für einzelne, frei wählbare Wetter-Stationen.  
+Quelle Daten: [MeteoStat](https://meteostat.net/de).
+
+Vorschau auf ein mögliches Ergebnis:
+
+<img width="1000" height="1000" alt="Wetter Trend spezial mit allen Schwell-Werten ab 30°C" src="https://github.com/user-attachments/assets/cdfbfaa7-dd25-4a38-b60d-b4c941d3213c" />
+
+
+## Wie nutzen?
+
 0. kostenlosen Basic-Account auf RapidAPI erstellen und API-Key erzeugen: https://dev.meteostat.net/api
 1. RapidAPIKey in getData.py anpassen
 2. Wenn Daten einer konkreten offiziellen Wetterstation verwendet werden sollen:
