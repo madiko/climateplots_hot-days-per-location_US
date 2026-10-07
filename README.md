@@ -49,6 +49,6 @@ Einstellungen in days_over.py anpassen
 3. days_over.py ausführen
 
 
-## Lizenz 
+## Lizenz
 
-Bitte ergänzen 
+Bitte ergänzen  
